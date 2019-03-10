@@ -7,17 +7,17 @@
         class="w-full flex-no-shrink md:max-w-sm"
       >
       <div class="w-full md:w-auto mx-2 my-4 bg-white px-4 py-4 rounded shadow-md">
-        <h1 class="text-xl leading-tight mb-4">
+        <h1 class="text-xl leading-tight">
           Welcome to HJW Executive Search
         </h1>
         <p class="mt-2 text-black leading-normal">
           HJW Executive Search is one of the leading executive search firms in North America. By understanding both our client's staffing needs and our candidates' skill sets, our experienced team of recruiters will work closely with you to find the perfect match for your company or career.
         </p>
-        <div class="buttons flex flex-row -mx-2">
-          <nuxt-link to="/jobs" class="flex-grow mx-2 no-underline leading-none py-2 mt-4 bg-blue-lighter text-center text-blue-darker rounded shadow">
+        <div class="buttons flex flex-row -mx-2 mt-4">
+          <nuxt-link to="/jobs" class="flex-grow mx-2 no-underline leading-none py-2 bg-blue-lighter text-center text-blue-darker rounded shadow">
             Find a Job
           </nuxt-link>
-          <nuxt-link to="/contact" class="flex-grow mx-2 no-underline leading-none py-2 mt-4 bg-blue-lighter text-center text-blue-darker rounded shadow">
+          <nuxt-link to="/contact" class="flex-grow mx-2 no-underline leading-none py-2 bg-blue-lighter text-center text-blue-darker rounded shadow">
             Hire Someone
           </nuxt-link>
         </div>
@@ -100,7 +100,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .job-list {
   list-style: circle;
 }

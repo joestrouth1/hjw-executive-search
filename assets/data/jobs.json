@@ -1,6 +1,7 @@
 [
   {
     "title": "Customer Strategy Director",
+    "slug": "customer-strategy-director",
     "summary": "As a vital member and leader of the Customer Strategy team, the Customer Strategy Director provides direction to members of the Customer Strategy team and works closely with executive leadership to identify, influence and implement customer-centered growth initiatives. The Customer Strategy team is part of the Strategy & Customer Insights group (which also includes the Customer Analytics, Customer Research, and Performance Measurement teams) and works with all parts of the organization including Marketing, Merchandising, and Store Operations to create customer-driven growth initiatives. Candidates will need to demonstrate the ability to initiate and then lead multiple efforts that (a) generate customer insights from available data sources (e.g., customer databases, primary market research, etc.), (b) use those insights as the basis for generating new corporate initiatives, and (c) initiate and oversee these change initiatives within the organization.",
     "responsibilities": [
       "Coordinates with VP of Customer Strategy, EVP of Strategy and Customer Insights, and the broad executive team, to identify and prioritize areas for analysis.",
@@ -30,7 +31,8 @@
   },
   {
     "title": "Customer Strategy Manager",
-    "summary": "As a vital member of the Customer Strategy team, the Customer Strategy Manager provides works closely with executive leadership to identify, influence and implement customer-centered growth initiatives for my client. The Customer Strategy team is part of the broader Strategy & Customer Insights group (which also includes the Customer Analytics, Customer Research, and Performance Measurement teams) and works with all parts of the organization including Marketing, Merchandising, and Store Operations to create customer-driven growth initiatives. Candidates will need to demonstrate the ability to initiate and then lead efforts that (a) generate customer insights from available customer data sources (e.g., customer databases, primary market research, etc.), (b) use those insights as the basis for generating new corporate initiatives, and (c) initiate and oversee these change initiatives within the organization. \n The Customer Strategy Manager will partner with the other teams within the Strategy & Customer Insights group including Customer Analytics, Customer Research, and Performance Measurement and with the broader organization including Marketing, Merchandising, and Store Operations. The Customer Strategy Manager will leverage the existing work by their partners in the Strategy & Customer Insights group as well as initiate new insight development efforts; the latter could span the identification/development of new data sources to applying new insight development approaches to existing data. These efforts by the Customer Strategy Manager are expected to lead to specific customer-driven growth initiatives (e.g., multi-channel direct marketing, store-level merchandising strategy, marketing spend effectiveness). Finally, they will be active leaders of these initiatives as they are taken from concept, through testing, to final implementation. Once proven out, these initiative will then be handed off to their long-term business owners in the organization (e.g., marketing).",
+    "slug": "customer-strategy-manager",
+    "summary": "As a vital member of the Customer Strategy team, the Customer Strategy Manager provides works closely with executive leadership to identify, influence and implement customer-centered growth initiatives for my client. The Customer Strategy team is part of the broader Strategy & Customer Insights group (which also includes the Customer Analytics, Customer Research, and Performance Measurement teams) and works with all parts of the organization including Marketing, Merchandising, and Store Operations to create customer-driven growth initiatives. Candidates will need to demonstrate the ability to initiate and then lead efforts that (a) generate customer insights from available customer data sources (e.g., customer databases, primary market research, etc.), (b) use those insights as the basis for generating new corporate initiatives, and (c) initiate and oversee these change initiatives within the organization.\n The Customer Strategy Manager will partner with the other teams within the Strategy & Customer Insights group including Customer Analytics, Customer Research, and Performance Measurement and with the broader organization including Marketing, Merchandising, and Store Operations. The Customer Strategy Manager will leverage the existing work by their partners in the Strategy & Customer Insights group as well as initiate new insight development efforts; the latter could span the identification/development of new data sources to applying new insight development approaches to existing data. These efforts by the Customer Strategy Manager are expected to lead to specific customer-driven growth initiatives (e.g., multi-channel direct marketing, store-level merchandising strategy, marketing spend effectiveness). Finally, they will be active leaders of these initiatives as they are taken from concept, through testing, to final implementation. Once proven out, these initiative will then be handed off to their long-term business owners in the organization (e.g., marketing).",
     "responsibilities": [
       "Coordinates with VP of Customer Strategy and EVP of Strategy and Customer Insights, and the broad executive team, to identify and prioritize areas for analysis.",
       "Applies analytical rigor to complex business issues and translates customer insights into financially viable retail initiatives.",
@@ -49,6 +51,7 @@
   },
   {
     "title": "Statistical Analyst, Segmentation Strategy",
+    "slug": "statistical-analyst-segmentation-strategy",
     "responsibilities": [
       "Maximize file penetration and performance through development of new client file strategy, segmentation, and list selection.",
       "Ensure accurate execution of all statistical regression models developed by statisticians.",
@@ -73,6 +76,7 @@
   },
   {
     "title": "VP of Customer Operations",
+    "slug": "vp-of-customer-operations",
     "summary": "This person will manage customer-facing teams and report directly to the CEO.\nAs a member of the executive team, this person will develop a strategy to drive revenue growth and extend the development of the organizations strategic offerings, superior technology and creative services by managing a group that includes; Strategic Account and Engagement Managers, Customer Support and Technical Consultants.",
     "responsibilities": [
       "Build, develop and lead a cohesive and effective team.",
@@ -86,6 +90,7 @@
   },
   {
     "title": "Director of Email Strategy",
+    "slug": "director-of-email-strategy",
     "summary": "The Director of E-mail Strategy is responsible for leading the team to design the e-mail Strategy for a proposed client engagement (organic and new business). The Director of e-mail strategy is the lead developer of the plan or strategy but must work in collaboration with the client owner, the Technology, Communications and Analytic Strategists and key Subject Matter Experts (SMEs). This job acts as a key hand-off point for the Communications, Technology and Analytic Strategists as strategy is brought to life.",
     "requirements": [
       "Minimum requirements include 5+ years complex engagement consulting experience in a marketing, brand planning and management, Internet or new media environment encompassing e-business, experiential branding and application development.",
@@ -101,6 +106,7 @@
   },
   {
     "title": "Marketing Manager",
+    "slug": "marketing-manager",
     "responsibilities": [
       "Direct Mail Marketing.",
       "Establish Direct Mail marketing direction for assigned clients and products with the overall goal of maximizing profitability by media and product.",
@@ -123,6 +129,7 @@
   },
   {
     "title": "Manager of Consumer Research",
+    "slug": "manager-of-consumer-research",
     "summary": "The Manager of Consumer Research is an integral part of the Market Research department. The role of the Manager is to develop and manage research methodologies in support of new product development, simulated test market tracking, post introduction tracking and various strategic research demands in support of marketing and business goals.\nYou will deliver relevant insights and solutions to enable strong guidance of brand and segment building efforts. Specific tasks include client service, planning, coordination, budgeting and management of the research process. This entails problem identification/definition and opportunity assessment by acquiring, analyzing, synthesizing and communicating relevant research information and implications to the business and recommending actions. Effective management and utilization of resources including personnel, budgets and time is imperative.",
     "requirements": [
       "Manager must have thorough understanding of basic and advanced consumer research methods, test marketing, brand and new brand tracking and sales/market analysis tools to understand the market place and consumer dynamics.",
@@ -138,6 +145,7 @@
   },
   {
     "title": "Engagement Manager",
+    "slug": "engagement-manager",
     "responsibilities": [
       "Business Development activities to market service offerings to existing customers and prospects.",
       "Primary customer contact, manage customer expectations and project deliverables.",
@@ -165,6 +173,7 @@
   },
   {
     "title": "Director of Customer Research",
+    "slug": "director-of-customer-research",
     "summary": "Responsible for the development, delivery and application of actionable customer/shopping/brand insights to direct decision making and drive profitable sales for $55+Billion business. Entails leading research insights and implications at the national, regional, market and local (store) level across retail brand and sub-brands.\nPartners with Vice President to identify, understand and grow optimal target customer segments. Deliver compelling customer, shopping and brand insights to drive the strategic development of short and long-term company initiatives that deliver unmet customer needs. Develop tools/studies to monitor company performance against key customer experience metrics.",
     "responsibilities": [
       "Develop/execute holistic research plans that yield actionable customer insights to drive company strategies including brand and positioning.",
