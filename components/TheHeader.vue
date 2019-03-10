@@ -4,7 +4,7 @@
       <a href="#content">Skip to main content</a>
     </div>
     <div class="p-4 mx-auto">
-      <Logo />
+      <Logo @click="$router.push('/')"/>
     </div>
     <div class="w-full lg:hidden">
       <button
