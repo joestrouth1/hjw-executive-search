@@ -6,7 +6,7 @@
     <div>
       <ul class="list-reset">
         <li v-for="(job) in jobs" :key="job.title">
-          <div class="shadow mx-2 mb-4 p-4">
+          <div class="shadow rounded mx-2 mb-4 p-4">
             <h2 class="text-xl font-light uppercase leading-tight">
               {{ job.title }}
             </h2>
