@@ -21,6 +21,6 @@ export default {
 
 <style lang="postcss">
 body {
-  @apply w-full min-h-screen font-sans;
+  @apply w-full min-h-screen font-sans bg-grey-lightest text-black;
 }
 </style>

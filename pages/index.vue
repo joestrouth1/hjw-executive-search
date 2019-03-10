@@ -1,6 +1,6 @@
 <template>
   <main id="content" class="container mx-auto">
-    <div class="bg-grey-lighter sm:bg-white mx-auto flex justify-center flex-row-reverse flex-wrap md:flex-no-wrap md:items-center">
+    <div class="mx-auto flex justify-center flex-row-reverse flex-wrap md:flex-no-wrap md:items-center">
       <img
         :src="slides[currentSlide]"
         alt="Where do you picture yourself next in your career?"
