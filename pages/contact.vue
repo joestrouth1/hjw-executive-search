@@ -9,12 +9,6 @@
         Fairfield, CT 06825<br>
         <a href="tel:+12033338000">(203) 333-8000</a>
       </address>
-      <div v-if="formStatus === 'success'" class="bg-green-lighter bg-green-darkest">
-        Thanks for reaching out!
-      </div>
-      <div v-if="formStatus === 'error'" class="bg-red-lighter bg-red-darkest">
-        There was a problem submitting the form. Please try again in a bit.
-      </div>
       <form ref="contactForm" @submit.prevent="handleSubmit">
         <label>
           Name
@@ -71,6 +65,12 @@
         <button type="submit" class="leading-none w-full sm:w-auto mt-2 px-4 py-2 bg-blue-lighter text-center text-blue-darker rounded shadow">
           Submit
         </button>
+        <div v-if="formStatus === 'success'" class="bg-green-lighter bg-green-darkest p-2">
+          Thanks for reaching out!
+        </div>
+        <div v-if="formStatus === 'error'" class="bg-red-lighter bg-red-darkest p-2">
+          There was a problem submitting the form. Please try again in a bit.
+        </div>
       </form>
     </div>
   </main>
@@ -94,7 +94,7 @@ export default {
   methods: {
     handleSubmit() {
       this.$axios
-        .post(
+        .$post(
           '/',
           this.encode({
             'form-name': 'contact-us',
@@ -108,6 +108,11 @@ export default {
         )
         .then(() => (this.formStatus = 'success'))
         .catch(() => (this.formStatus = 'error'))
+        .finally(() => {
+          setTimeout(() => {
+            this.formStatus = ''
+          }, 3000)
+        })
     },
     encode(data) {
       return Object.keys(data)
