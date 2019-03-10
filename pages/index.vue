@@ -4,7 +4,7 @@
       <img
         :src="slides[currentSlide]"
         alt="Where do you picture yourself next in your career?"
-        class="w-full flex-no-shrink md:max-w-sm"
+        class="w-full h-full flex-no-shrink md:max-w-sm"
       >
       <div class="w-full md:w-auto mx-2 my-4 bg-white px-4 py-4 rounded shadow-md">
         <h1 class="text-xl leading-tight">
