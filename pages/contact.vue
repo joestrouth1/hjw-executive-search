@@ -9,7 +9,7 @@
         Fairfield, CT 06825<br>
         <a href="tel:+12033338000">(203) 333-8000</a>
       </address>
-      <form ref="contactForm" netlify @submit.prevent="handleSubmit">
+      <form name="contact-us" netlify @submit.prevent="handleSubmit">
         <label>
           Name
           <input
