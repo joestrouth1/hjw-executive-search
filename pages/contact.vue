@@ -9,7 +9,13 @@
         Fairfield, CT 06825<br>
         <a href="tel:+12033338000">(203) 333-8000</a>
       </address>
-      <form ref="contactForm" netlify @submit.prevent="handleSubmit">
+      <div v-if="formStatus === 'success'" class="bg-green-lighter bg-green-darkest">
+        Thanks for reaching out!
+      </div>
+      <div v-if="formStatus === 'error'" class="bg-red-lighter bg-red-darkest">
+        There was a problem submitting the form. Please try again in a bit.
+      </div>
+      <form ref="contactForm" @submit.prevent="handleSubmit">
         <label>
           Name
           <input
@@ -81,12 +87,34 @@ export default {
         subject: query.job || '',
         address: '',
         comments: ''
-      }
+      },
+      formStatus: ''
     }
   },
   methods: {
     handleSubmit() {
-      alert(JSON.stringify(this.form))
+      this.$axios
+        .post(
+          '/',
+          this.encode({
+            'form-name': 'contact-us',
+            ...this.form
+          }),
+          {
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded'
+            }
+          }
+        )
+        .then(() => (this.formStatus = 'success'))
+        .catch(() => (this.formStatus = 'error'))
+    },
+    encode(data) {
+      return Object.keys(data)
+        .map(
+          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        )
+        .join('&')
     }
   }
 }
