@@ -17,7 +17,7 @@
       </div>
       <FeaturesList v-if="job.responsibilities" title="Responsibilities" :features="job.responsibilities" dark />
       <FeaturesList v-if="job.requirements" title="Requirements" :features="job.requirements" />
-      <nuxt-link :to="{ name: 'contact', query: { job: job.title } }" class="text-blue-darkest bg-blue-lighter inline-block leading-none mx-6 mb-4 py-2 px-4 text-center no-underline rounded shadow">
+      <nuxt-link :to="{ name: 'contact', query: { job: job.title } }" class="block md:inline-block text-blue-darkest bg-blue-lighter leading-none mx-6 mb-4 py-2 px-4 text-center no-underline rounded shadow">
         Contact us
       </nuxt-link>
     </main>
