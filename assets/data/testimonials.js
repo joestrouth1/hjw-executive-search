@@ -1,0 +1,50 @@
+export default [
+  {
+    greeting: 'Dear Ron,',
+    body:
+      'Thank you for recruiting me for my new position. You listened to what I was looking for as a candidate and then aligned me with one of your clients that not only had a position open that matched my skill set, but also matched the criteria that I gave you when we first spoke. Your consistent follow up and attention to detail was very impressive.  It is obvious to me that you attempt to place your candidates in positions that not only fill an opening that one of your clients may have, but you also try to place candidates in a role that is clearly a good next step for them in their career. I look forward to staying in touch with you and keeping you posted on my progress.',
+    title: 'Sales Executive, Large Publicly Traded Software Company'
+  },
+  {
+    greeting: 'Kristen,',
+    body:
+      'You were a pleasure to work with throughout the recruiting process. You helped me identify key career objectives and quickly matched me with several potential companies. You provided substantial support before and after interviews and helped me achieve my target position and compensation goals.  You are warm, friendly, and professional. You are easy to get a hold of and incredibly responsive.',
+    title: 'Account Director, Online Market Research Company'
+  },
+  {
+    greeting: 'Dear Ron,',
+    body:
+      'I wanted to take a moment and thank you for the excellent job your firm recently did for us. When you and I first spoke I was in a position where I needed to hire 2 sales people immediately. After our first conversation it was obvious that you listened to what our hiring needs were and delivered candidates that both met and exceeded the criteria that I gave to you. Your unique approach to the search process and attention to detail and follow up made the search process seem effortless. I will continue to recommend your firm to other members within our organization who have staffing needs. I look forward to working with you in the future.',
+    title: 'Sales Manager, Large Publicly Traded Software Company'
+  },
+  {
+    greeting: 'Dear Matt,',
+    body:
+      "You are really, really good. Consistently professional. Always over communicate re: status and asking for feedback. Well connected and deliver the BEST quality candidates. You consistently uncover talent I didn't know existed. I don't know how you do it, but you do, and my world is better for it. Go Matt!",
+    title: 'CMO, Fortune 500 CPG Company'
+  },
+  {
+    greeting: 'Dear Kristen,',
+    body:
+      'You are an amazing Executive Recruiter. You are extremely helpful and knowledgeable and worked with me every step of the way throughout the process. You are great at following up and making sure that all of the details are covered and I would highly recommend you to my friends and colleagues who are looking for their next career opportunity.',
+    title: 'Director, Research Solutions Online Research Company'
+  },
+  {
+    greeting: 'Dear Ron,',
+    body:
+      "You recruited me for a new Digital Ad Position. You not only knew the client's company well but their needs very well and how I fit their needs. You were my 'partner' every step of the way during the interview and offer process. You took great care to keep me informed of next steps and what you were doing to ensure the process was moving. You provided invaluable feedback the whole way and was very supportive in securing the best offer for myself as well as your client. I have recommended you and your company to at least five other people since I met you.",
+    title: 'Account Executive, Online Publisher'
+  },
+  {
+    greeting: 'Dear Matt,',
+    body:
+      'As you know changing jobs is tough under any circumstances. However the professionalism, commitment, and attention to detail that everyone at Harrington J. White demonstrated at every step of the process found and won the position that exceeded every one of my fondest dreams. I particularly want to thank you Matt for finding the position, the constant information and support you offered during a process, and the minor touches that delivered the opportunity. Working for my new company was exactly what I was seeking when I decided to make my move.',
+    title: 'Technology Sales Executive'
+  },
+  {
+    greeting: 'Dear Ron,',
+    body:
+      'Ron is organized, efficient, extremely competent, and has an excellent rapport with people. His communication skills, both written and verbal, are excellent. In summary, I highly recommend Ron.',
+    title: 'Marketing Executive, Legal Services'
+  }
+]

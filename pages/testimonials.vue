@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import testimonials from '@/assets/data/testimonials.json'
+import testimonials from '@/assets/data/testimonials'
 
 export default {
   data() {
