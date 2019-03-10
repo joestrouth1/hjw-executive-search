@@ -55,6 +55,7 @@ export default {
         { name: 'Home', path: '/' },
         { name: 'Jobs', path: '/jobs' },
         { name: 'Our Process', path: '/process' },
+        { name: 'Testimonials', path: '/testimonials' },
         { name: 'Contact', path: '/contact' },
         { name: 'About Us', path: '/about' }
       ]
