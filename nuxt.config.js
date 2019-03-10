@@ -48,6 +48,7 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+    host: 'hjw-executive-search.netlify.com',
     baseUrl: 'https://hjw-executive-search.netlify.com',
     browserBaseUrl: 'https://hjw-executive-search.netlify.com'
   },

@@ -95,7 +95,7 @@ export default {
     handleSubmit() {
       this.$axios
         .$post(
-          '/',
+          'https://hjw-executive-search.netlify.com',
           this.encode({
             'form-name': 'contact-us',
             ...this.form
