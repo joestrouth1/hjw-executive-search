@@ -7,9 +7,9 @@
         class="w-full flex-no-shrink md:max-w-sm"
       >
       <div class="w-full md:w-auto mx-2 my-4 bg-white px-4 py-4 rounded shadow-md">
-        <h2 class="text-xl leading-tight mb-4">
+        <h1 class="text-xl leading-tight mb-4">
           Welcome to HJW Executive Search
-        </h2>
+        </h1>
         <p class="mt-2 text-black leading-normal">
           HJW Executive Search is one of the leading executive search firms in North America. By understanding both our client's staffing needs and our candidates' skill sets, our experienced team of recruiters will work closely with you to find the perfect match for your company or career.
         </p>

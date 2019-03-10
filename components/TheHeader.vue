@@ -9,22 +9,13 @@
     <div class="w-full lg:hidden">
       <button
         :class="[navCollapsed ? 'border-grey text-grey-darker' : 'border-grey-dark',
-                 'shadow',
-                 'block',
-                 'border',
-                 'rounded',
-                 'mx-auto',
-                 'mb-4',
-                 'px-4',
-                 'py-2',
-                 'w-64',
-                 'uppercase',]"
+                 'shadow block border rounded mx-auto mb-4 px-4 py-4 w-64 uppercase']"
         @click="navCollapsed = !navCollapsed"
       >
         Menu
       </button>
     </div>
-    <nav :class="['nav', 'w-full', {collapsed: navCollapsed}]">
+    <nav :class="['nav w-full', {collapsed: navCollapsed}]">
       <ul class="list-reset flex flex-col lg:flex-row lg:justify-center">
         <li
           v-for="(route, index) in routes" 
@@ -35,18 +26,10 @@
             :to="route.path"
             :class="[{
                        // Inverse themes for even/odd rows
-                       'bg-blue-lighter': index % 2,
-                       'text-blue-darker': index % 2,
-                       'bg-blue-darker': !(index % 2),
-                       'text-blue-lighter': !(index % 2),
+                       'bg-blue-lighter text-blue-darker': index % 2,
+                       'bg-blue-darker text-blue-lighter': !(index % 2)
                      },
-                     'uppercase',
-                     'block',
-                     'no-underline',
-                     'lg:bg-transparent',
-                     'lg:text-black',
-                     'p-2',
-                     'lg:p-0'
+                     'uppercase block no-underline lg:bg-transparent lg:text-black p-2 lg:p-0',
             ]"
           >
             {{ route.name }}
@@ -75,6 +58,13 @@ export default {
         { name: 'Contact', path: '/contact' },
         { name: 'About Us', path: '/about' }
       ]
+    }
+  },
+  watch: {
+    $route(to, from) {
+      if (to.path !== from.path) {
+        this.navCollapsed = true
+      }
     }
   }
 }
