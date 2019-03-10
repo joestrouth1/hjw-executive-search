@@ -1,10 +1,10 @@
 <template>
   <div class="container mx-auto">
-    <nuxt-link :to="{ name: 'jobs' }" class="text-blue-darker block leading-none m-4 text-sm uppercase no-underline">
+    <nuxt-link :to="{ name: 'jobs' }" class="text-blue-darker block leading-none my-4 mx-6 text-sm uppercase no-underline">
       View all jobs
     </nuxt-link>
     <main id="content">
-      <div class="m-4">
+      <div class="my-4 mx-6">
         <h1 class="text-2xl uppercase font-light leading-tight border border-t-0 border-r-0 border-l-0 border-blue-darker">
           {{ job.title }}
         </h1>
@@ -17,20 +17,9 @@
       </div>
       <FeaturesList v-if="job.responsibilities" title="Responsibilities" :features="job.responsibilities" dark />
       <FeaturesList v-if="job.requirements" title="Requirements" :features="job.requirements" />
-      <div class="p-6 bg-blue-darkest text-grey-lightest">
-        <h3 class="m-0 text-2xl leading-tight font-light border-b-2">
-          Recent News
-        </h3>
-        <p class="my-4 leading-normal max-w-md">
-          HJW Executive Search has recently successfully completed several key retained searches with our Fortune 10 client. The positions filled included but were not limited to:
-        </p>
-        <ul class="list-reset job-list sm:mx-4 leading-normal">
-          <li class="mt-2">
-            VP CRM
-          </li>
-        </ul>
-      </div>
-      {{ job }}
+      <nuxt-link :to="{ name: 'contact', query: { job: job.title } }" class="text-blue-darkest bg-blue-lighter inline-block leading-none mx-6 mb-4 py-2 px-4 text-center no-underline shadow">
+        Contact us
+      </nuxt-link>
     </main>
   </div>
 </template>

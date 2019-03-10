@@ -1,9 +1,9 @@
 <template functional>
-  <div :class="['p-4', props.dark ? 'bg-blue-darkest text-grey-lightest' : 'bg-blue-lightest text-black']">
+  <div :class="['p-6', props.dark ? 'bg-blue-darkest text-grey-lightest' : 'bg-transparent text-black']">
     <h3 class="m-0 text-2xl leading-tight font-light border-b-2">
       {{ props.title }}
     </h3>
-    <ul class="list-reset job-list sm:mx-4 leading-normal">
+    <ul class="list-reset job-list sm:mx-4 leading-normal max-w-md">
       <li v-for="feature in props.features" :key="feature" class="mt-2">
         {{ feature }}
       </li>
