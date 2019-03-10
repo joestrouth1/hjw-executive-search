@@ -41,7 +41,15 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    ['@nuxtjs/pwa']
+    [
+      '@nuxtjs/pwa',
+      {
+        manifest: {
+          name: 'HJW Executive Search',
+          short_name: 'HJW Search'
+        }
+      }
+    ]
   ],
   /*
   ** Axios module configuration
