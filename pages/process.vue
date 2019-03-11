@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <main id="content" class="container mx-auto">
     <h1 class="text-2xl leading-tight m-4">
       The HJW Executive Search Process
@@ -69,7 +69,3 @@
     </p>
   </main>
 </template>
-
-<script>
-export default {}
-</script>

@@ -20,7 +20,7 @@
     <ul class="list-reset m-4">
       <li v-for="(person, index) in people" :key="person.name">
         <div class="flex bg-white rounded shadow flex-wrap md:flex-no-wrap justify-center p-4 mb-4 items-center">
-          <img :src="person.img" alt="" :class="[index % 2 === 0 ? 'avatar-even' : 'avatar-odd']">
+          <img :src="person.img" alt="" :class="[index % 2 === 0 ? 'avatar-even' : 'avatar-odd', 'flex-no-shrink']">
           <h2 class="text-xl leading-tight w-full text-center my-4 md:w-48 mx-2 flex-no-shrink " v-text="person.name" />
           <p class="leading-normal" v-text="person.bio" />
         </div>
