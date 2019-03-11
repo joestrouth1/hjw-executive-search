@@ -1,4 +1,6 @@
 // eslint-disable-next-line nuxt/no-cjs-in-config
+const jobs = require('./assets/data/jobs.json')
+// eslint-disable-next-line nuxt/no-cjs-in-config
 module.exports = {
   mode: 'universal',
 
@@ -78,6 +80,13 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+    }
+  },
+  generate: {
+    routes: function(callback) {
+      const slugs = jobs.map(job => '/jobs/' + job.slug)
+      if (slugs) callback(null, slugs)
+      else callback(null)
     }
   }
 }
