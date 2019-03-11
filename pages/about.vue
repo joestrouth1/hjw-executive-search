@@ -3,18 +3,20 @@
     <h1 class="text-2xl m-4 leading-tight">
       About Us
     </h1>
-    <p class="leading-normal m-4">
-      HJW Executive Search is a limited liability corporation headquartered in White Plains, NY. Together the principals of the organization, Ron Harrington and Matt DeSabella, have over 20 years of executive search experience. Our firm has quickly emerged as one of the leading executive search firms in North America.  At HJW Executive Search, we take a specialist approach to executive search. Upon the beginning of our relationship, we will assign an expert within our firm who completely understands your industry and the position you are either looking to fill or secure. We have a proprietary database of elite candidates, clients and contacts with whom we have built career-long relationships. Our talent lies in making the perfect match between these different groups, providing companies with the top talent in their industry, while offering our candidates great jobs that can further propel their careers.
-    </p>
-    <p class="leading-normal m-4">
-      Our core competencies are recruiting top talent within the following skill sets: Marketing, Sales, Client Services, Pre-Sales, Post Sales, Ad Operations, Sales Planning, Accounting and Finance, Market Research and Business Analytics. In the past year alone, we have made successful placements in Digital Media, Advertising, Programmatic, RTB, Social Media, Insurance, Financial Services, Marketing/Interactive Marketing Services, Enterprise Software, Transportation, Healthcare and Publishing.
-    </p>
-    <p class="leading-normal m-4">
-      At HJW Executive Search, we take the necessary time to listen to our clients and candidates, understand their needs, and build long-term business relationships. We believe this simple, yet effective, strategy provides us with a competitive edge, but most importantly, it delivers results. 
-    </p>
-    <p class="leading-normal m-4">
-      We look forward to working with you.
-    </p>
+    <div class="max-w-lg">
+      <p class="leading-normal m-4">
+        HJW Executive Search is a limited liability corporation headquartered in White Plains, NY. Together the principals of the organization, Ron Harrington and Matt DeSabella, have over 20 years of executive search experience. Our firm has quickly emerged as one of the leading executive search firms in North America.  At HJW Executive Search, we take a specialist approach to executive search. Upon the beginning of our relationship, we will assign an expert within our firm who completely understands your industry and the position you are either looking to fill or secure. We have a proprietary database of elite candidates, clients and contacts with whom we have built career-long relationships. Our talent lies in making the perfect match between these different groups, providing companies with the top talent in their industry, while offering our candidates great jobs that can further propel their careers.
+      </p>
+      <p class="leading-normal m-4">
+        Our core competencies are recruiting top talent within the following skill sets: Marketing, Sales, Client Services, Pre-Sales, Post Sales, Ad Operations, Sales Planning, Accounting and Finance, Market Research and Business Analytics. In the past year alone, we have made successful placements in Digital Media, Advertising, Programmatic, RTB, Social Media, Insurance, Financial Services, Marketing/Interactive Marketing Services, Enterprise Software, Transportation, Healthcare and Publishing.
+      </p>
+      <p class="leading-normal m-4">
+        At HJW Executive Search, we take the necessary time to listen to our clients and candidates, understand their needs, and build long-term business relationships. We believe this simple, yet effective, strategy provides us with a competitive edge, but most importantly, it delivers results. 
+      </p>
+      <p class="leading-normal m-4">
+        We look forward to working with you.
+      </p>
+    </div>
     <ul class="list-reset m-4">
       <li v-for="(person, index) in people" :key="person.name">
         <div class="flex bg-white rounded shadow flex-wrap md:flex-no-wrap justify-center p-4 mb-4 items-center">

@@ -64,7 +64,7 @@
         Interview the client to evaluate project success
       </li>
     </ul>
-    <p class="leading-normal m-4">
+    <p class="leading-normal m-4 max-w-md">
       Our Retingency pricing structure enables us to provide Retained search service with pricing that makes sense for our clients. Upfront expense monies are always credited to the final invoice calculation of placements made. Contingency search, pricing, and structure also available. 
     </p>
   </main>

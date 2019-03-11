@@ -11,7 +11,7 @@
         <p v-if="job.location" class="my-2 leading-normal">
           📍 {{ job.location }}
         </p>
-        <p class="leading-normal max-w-md mt-8">
+        <p class="leading-normal max-w-md my-6">
           {{ job.summary }}
         </p>
       </div>

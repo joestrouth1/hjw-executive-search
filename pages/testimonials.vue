@@ -6,7 +6,7 @@
     <div>
       <ul class="list-reset leading-normal flex flex-wrap">
         <li v-for="(testimonial, index) in testimonials" :key="index" class="testimonial mb-4 md:flex-grow">
-          <div class="shadow rounded mx-2 p-4 h-full">
+          <div class="shadow rounded mx-2 p-4 h-full bg-white">
             <p class="text-lg mb-2">
               {{ testimonial.greeting }}
             </p>

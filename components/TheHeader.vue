@@ -1,5 +1,5 @@
 <template>
-  <header class="flex flex-wrap header">
+  <header class="flex flex-wrap bg-blue-lightest">
     <div id="skip">
       <a href="#content">Skip to main content</a>
     </div>
@@ -15,7 +15,7 @@
         Menu
       </button>
     </div>
-    <nav :class="['nav w-full', {collapsed: navCollapsed}]">
+    <nav :class="['nav w-full bg-white border-b', {collapsed: navCollapsed}]">
       <ul class="list-reset flex flex-col lg:flex-row lg:justify-center">
         <li
           v-for="(route, index) in routes" 
@@ -26,8 +26,8 @@
             :to="route.path"
             :class="[{
                        // Inverse themes for even/odd rows
-                       'bg-blue-lighter text-blue-darker': index % 2,
-                       'bg-blue-darker text-blue-lighter': !(index % 2)
+                       'bg-blue-lightest text-blue-darker': index % 2,
+                       'bg-blue-darker text-blue-lightest': !(index % 2)
                      },
                      'uppercase block no-underline lg:bg-transparent lg:text-black p-2 lg:p-0',
             ]"
@@ -72,16 +72,6 @@ export default {
 </script>
 
 <style lang="postcss">
-.header {
-  background: rgb(239, 248, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(239, 248, 255, 1) 0%,
-    rgba(188, 222, 250, 1) 60%,
-    rgba(108, 178, 235, 1) 100%
-  );
-}
-
 #skip {
   @apply w-screen h-8 flex justify-center items-center bg-white;
 }
